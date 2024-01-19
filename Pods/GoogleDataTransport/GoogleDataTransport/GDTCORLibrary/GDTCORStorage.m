@@ -126,7 +126,7 @@ static NSString *GDTCORStoragePath() {
         [data writeToFile:[GDTCORStorage archivePath] atomically:YES];
       } else {
 #if !TARGET_OS_MACCATALYST
-        [NSKeyedArchiver archiveRootObject:self toFile:[GDTCORStorage archivePath]];
+    //    [NSKeyedArchiver archiveRootObject:self toFile:[GDTCORStorage archivePath]];
 #endif
       }
     }
@@ -222,7 +222,7 @@ static NSString *GDTCORStoragePath() {
     }
   } else {
 #if !TARGET_OS_MACCATALYST
-    [NSKeyedUnarchiver unarchiveObjectWithFile:[GDTCORStorage archivePath]];
+ //   [NSKeyedUnarchiver unarchiveObjectWithFile:[GDTCORStorage archivePath]];
 #endif
   }
 }
@@ -246,7 +246,7 @@ static NSString *GDTCORStoragePath() {
       [data writeToFile:[GDTCORStorage archivePath] atomically:YES];
     } else {
 #if !TARGET_OS_MACCATALYST
-      [NSKeyedArchiver archiveRootObject:self toFile:[GDTCORStorage archivePath]];
+   //   [NSKeyedArchiver archiveRootObject:self toFile:[GDTCORStorage archivePath]];
 #endif
     }
 
@@ -265,7 +265,7 @@ static NSString *GDTCORStoragePath() {
     [data writeToFile:[GDTCORStorage archivePath] atomically:YES];
   } else {
 #if !TARGET_OS_MACCATALYST
-    [NSKeyedArchiver archiveRootObject:self toFile:[GDTCORStorage archivePath]];
+  //  [NSKeyedArchiver archiveRootObject:self toFile:[GDTCORStorage archivePath]];
 #endif
   }
 }
