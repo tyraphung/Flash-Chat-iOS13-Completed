@@ -23,8 +23,27 @@
 		0BA628A82361FC0400C7C981 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA628A72361FC0400C7C981 /* Message.swift */; };
 		0BA628AB2362046E00C7C981 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA628A92362046E00C7C981 /* MessageCell.swift */; };
 		0BA628AC2362046E00C7C981 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BA628AA2362046E00C7C981 /* MessageCell.xib */; };
+		C1B313942B5E2C12003A9392 /* BaseTestcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B313932B5E2C12003A9392 /* BaseTestcase.swift */; };
+		C1B313982B5E3C1A003A9392 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B313972B5E3C1A003A9392 /* LoginScreen.swift */; };
+		C1B3139A2B5E3C7D003A9392 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B313992B5E3C7D003A9392 /* WelcomeScreen.swift */; };
+		C1B3139C2B5E3D30003A9392 /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3139B2B5E3D30003A9392 /* TestCase.swift */; };
+		C1B3139F2B5E3F3D003A9392 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3139E2B5E3F3D003A9392 /* UIConstants.swift */; };
+		C1B313A12B5E405D003A9392 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B313A02B5E405D003A9392 /* RegisterScreen.swift */; };
+		C1B313A32B5E41B3003A9392 /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B313A22B5E41B3003A9392 /* ChatScreen.swift */; };
+		C1B313A52B5E43DE003A9392 /* LoginUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B313A42B5E43DE003A9392 /* LoginUITest.swift */; };
+		C1B313A72B5E4EE4003A9392 /* CommonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B313A62B5E4EE4003A9392 /* CommonData.swift */; };
 		F3E45E855FF553A5C598A783 /* Pods_Flash_Chat_iOS13.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D9D92A3BE422FE87311B55 /* Pods_Flash_Chat_iOS13.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1B3138E2B5E11AA003A9392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B62816B235DEE8100E35CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B628172235DEE8100E35CAF;
+			remoteInfo = "Flash Chat iOS13";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0B5B3A112360AA0200C364C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -46,6 +65,17 @@
 		0BA628AA2362046E00C7C981 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		21D9D92A3BE422FE87311B55 /* Pods_Flash_Chat_iOS13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat_iOS13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64AD6ADC7D7AD14FB91A587E /* Pods-Flash Chat iOS13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.release.xcconfig"; sourceTree = "<group>"; };
+		C14440252B67B838007D4128 /* Smoke.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = file; name = Smoke.xctestplan; path = "Flash Chat iOS13UITests/Smoke.xctestplan"; sourceTree = SOURCE_ROOT; };
+		C1B313882B5E11AA003A9392 /* Flash Chat iOS13UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flash Chat iOS13UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B313932B5E2C12003A9392 /* BaseTestcase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestcase.swift; sourceTree = "<group>"; };
+		C1B313972B5E3C1A003A9392 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		C1B313992B5E3C7D003A9392 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		C1B3139B2B5E3D30003A9392 /* TestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCase.swift; sourceTree = "<group>"; };
+		C1B3139E2B5E3F3D003A9392 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		C1B313A02B5E405D003A9392 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		C1B313A22B5E41B3003A9392 /* ChatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
+		C1B313A42B5E43DE003A9392 /* LoginUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUITest.swift; sourceTree = "<group>"; };
+		C1B313A62B5E4EE4003A9392 /* CommonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonData.swift; sourceTree = "<group>"; };
 		EB5F478D8241F7A9083F0C03 /* Pods-Flash Chat iOS13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +86,13 @@
 			files = (
 				F3E45E855FF553A5C598A783 /* Pods_Flash_Chat_iOS13.framework in Frameworks */,
 				0B6A41CA2366F25200F3366A /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B313852B5E11AA003A9392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +112,7 @@
 			children = (
 				0B62819D235F0F4D00E35CAF /* README.md */,
 				0B628175235DEE8100E35CAF /* Flash Chat iOS13 */,
+				C1B313892B5E11AA003A9392 /* Flash Chat iOS13UITests */,
 				0B628174235DEE8100E35CAF /* Products */,
 				5EF3A3E3FF8DC3677ADB9FA1 /* Pods */,
 				02999A217B2C48011C66DD84 /* Frameworks */,
@@ -85,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				0B628173235DEE8100E35CAF /* Flash Chat iOS13.app */,
+				C1B313882B5E11AA003A9392 /* Flash Chat iOS13UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +183,47 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C1B313892B5E11AA003A9392 /* Flash Chat iOS13UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C14440252B67B838007D4128 /* Smoke.xctestplan */,
+				C1B3139D2B5E3F23003A9392 /* Utils */,
+				C1B313962B5E3B60003A9392 /* Tests */,
+				C1B313952B5E3B4E003A9392 /* Screens */,
+				C1B313932B5E2C12003A9392 /* BaseTestcase.swift */,
+				C1B3139B2B5E3D30003A9392 /* TestCase.swift */,
+			);
+			path = "Flash Chat iOS13UITests";
+			sourceTree = "<group>";
+		};
+		C1B313952B5E3B4E003A9392 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C1B313972B5E3C1A003A9392 /* LoginScreen.swift */,
+				C1B313992B5E3C7D003A9392 /* WelcomeScreen.swift */,
+				C1B313A02B5E405D003A9392 /* RegisterScreen.swift */,
+				C1B313A22B5E41B3003A9392 /* ChatScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C1B313962B5E3B60003A9392 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C1B313A42B5E43DE003A9392 /* LoginUITest.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C1B3139D2B5E3F23003A9392 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C1B3139E2B5E3F3D003A9392 /* UIConstants.swift */,
+				C1B313A62B5E4EE4003A9392 /* CommonData.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,18 +249,40 @@
 			productReference = 0B628173235DEE8100E35CAF /* Flash Chat iOS13.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C1B313872B5E11AA003A9392 /* Flash Chat iOS13UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B313902B5E11AA003A9392 /* Build configuration list for PBXNativeTarget "Flash Chat iOS13UITests" */;
+			buildPhases = (
+				C1B313842B5E11AA003A9392 /* Sources */,
+				C1B313852B5E11AA003A9392 /* Frameworks */,
+				C1B313862B5E11AA003A9392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1B3138F2B5E11AA003A9392 /* PBXTargetDependency */,
+			);
+			name = "Flash Chat iOS13UITests";
+			productName = "Flash Chat iOS13UITests";
+			productReference = C1B313882B5E11AA003A9392 /* Flash Chat iOS13UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0B62816B235DEE8100E35CAF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
+				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Angela Yu";
 				TargetAttributes = {
 					0B628172235DEE8100E35CAF = {
 						CreatedOnToolsVersion = 11.1;
+					};
+					C1B313872B5E11AA003A9392 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 0B628172235DEE8100E35CAF;
 					};
 				};
 			};
@@ -201,6 +303,7 @@
 			projectRoot = "";
 			targets = (
 				0B628172235DEE8100E35CAF /* Flash Chat iOS13 */,
+				C1B313872B5E11AA003A9392 /* Flash Chat iOS13UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,6 +319,13 @@
 				0B5B3A122360AA0200C364C3 /* GoogleService-Info.plist in Resources */,
 				0B62819E235F0F4D00E35CAF /* README.md in Resources */,
 				0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B313862B5E11AA003A9392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +390,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1B313842B5E11AA003A9392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B313942B5E2C12003A9392 /* BaseTestcase.swift in Sources */,
+				C1B313982B5E3C1A003A9392 /* LoginScreen.swift in Sources */,
+				C1B3139A2B5E3C7D003A9392 /* WelcomeScreen.swift in Sources */,
+				C1B313A52B5E43DE003A9392 /* LoginUITest.swift in Sources */,
+				C1B3139F2B5E3F3D003A9392 /* UIConstants.swift in Sources */,
+				C1B313A72B5E4EE4003A9392 /* CommonData.swift in Sources */,
+				C1B313A12B5E405D003A9392 /* RegisterScreen.swift in Sources */,
+				C1B313A32B5E41B3003A9392 /* ChatScreen.swift in Sources */,
+				C1B3139C2B5E3D30003A9392 /* TestCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1B3138F2B5E11AA003A9392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B628172235DEE8100E35CAF /* Flash Chat iOS13 */;
+			targetProxy = C1B3138E2B5E11AA003A9392 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0B62817C235DEE8100E35CAF /* Main.storyboard */ = {
@@ -454,6 +588,55 @@
 			};
 			name = Release;
 		};
+		C1B313912B5E11AA003A9392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Flash-Chat-iOS13UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flash Chat iOS13";
+			};
+			name = Debug;
+		};
+		C1B313922B5E11AA003A9392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Flash-Chat-iOS13UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flash Chat iOS13";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -471,6 +654,15 @@
 			buildConfigurations = (
 				0B628188235DEE8400E35CAF /* Debug */,
 				0B628189235DEE8400E35CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B313902B5E11AA003A9392 /* Build configuration list for PBXNativeTarget "Flash Chat iOS13UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B313912B5E11AA003A9392 /* Debug */,
+				C1B313922B5E11AA003A9392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

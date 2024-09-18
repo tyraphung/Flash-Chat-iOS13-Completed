@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "73A0C350-5DCA-45F7-A2A4-09E4AB46FE7E",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Flash Chat iOS13.xcodeproj",
+        "identifier" : "C1B313872B5E11AA003A9392",
+        "name" : "Flash Chat iOS13UITests"
+      }
+    }
+  ],
+  "version" : 1
+}
